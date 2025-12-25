@@ -69,7 +69,10 @@ set(FILES
         src/viper/utils/Stereo3DSurround.cpp
         src/viper/utils/Subwoofer.cpp
         src/viper/utils/TimeConstDelay.cpp
-        src/viper/utils/WaveBuffer.cpp)
+        src/viper/utils/WaveBuffer.cpp
+
+	# AIDL
+	src/ViPER4Aidl.cpp)
 
 add_library(
         # Sets the name of the library.
